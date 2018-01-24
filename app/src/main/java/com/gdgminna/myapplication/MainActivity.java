@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         showImageToast.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //commented
                 Toast.makeText(MainActivity.this, "Image has been clicked", Toast.LENGTH_SHORT).show();
             }
         });
